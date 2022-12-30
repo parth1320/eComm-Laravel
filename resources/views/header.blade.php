@@ -24,13 +24,13 @@ $total = ProductController::cartItem();
             </ul>
             <form class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control search-box" placeholder="Search">
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Cart({{ $total }})</a></li>
+                <li><a href="/cartlist">Cart({{ $total }})</a></li>
                 @if (Session::has('user'))
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown"
