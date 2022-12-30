@@ -18,6 +18,11 @@ class UserSeeder extends Seeder
         //
         DB::table('users')->insert([
             [
+            'name'=>'harshil kyada',
+            'email'=>'harshil@kyada.com',
+            'password'=>Hash::make(12345)
+            ],
+            [
             'name'=>'parth kakadiya',
             'email'=>'parth@kakadiya.com',
             'password'=>Hash::make(12345)

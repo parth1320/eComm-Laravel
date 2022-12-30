@@ -18,6 +18,13 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
+            'name'=>'LG mobile',
+            'price'=>'200',
+            'description'=>'A smartphone with 4Gb RAM and many more features',
+            'category'=>'mobile',
+            'gallery'=>'https://www.lg.com/levant_en/images/plp-b2c/levanten-mobilephones-hero-2-m.jpg'
+            ],
+            [
             'name'=>'Oppo mobile',
             'price'=>'300',
             'description'=>'A smartphone with 8Gb RAM and many more features',
